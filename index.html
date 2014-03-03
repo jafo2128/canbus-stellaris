@@ -35,6 +35,44 @@
 <a name="canbus-stellaris" class="anchor" href="#canbus-stellaris"><span class="octicon octicon-link"></span></a>canbus-stellaris</h1>
 
 <p>Working example of CAN BUS for Stellaris Launchpad (EK-LM4F120XL)</p>
+
+<ul>
+<li>Install required software tools</li>
+<li>Setup hardware</li>
+<li>Import, Build and Debug Code Composer projects </li>
+</ul><h1>
+<a name="required-software-tools" class="anchor" href="#required-software-tools"><span class="octicon octicon-link"></span></a>Required software tools</h1>
+
+<ul>
+<li>Code Composer Studio 5.5 (<a href="http://www.ti.com/tool/ccstudio">http://www.ti.com/tool/ccstudio</a>)</li>
+<li>StellarisWare 9453 (<a href="http://www.ti.com/tool/sw-ek-lm4f120xl">http://www.ti.com/tool/sw-ek-lm4f120xl</a>)</li>
+</ul><h1>
+<a name="required-hardware" class="anchor" href="#required-hardware"><span class="octicon octicon-link"></span></a>Required hardware</h1>
+
+<ul>
+<li>2 x Stellaris Launchpad (EK-LM4F120XL)</li>
+<li>2 x Microchip MCP2551 (<a href="http://www.microchip.com/mcp2551">http://www.microchip.com/mcp2551</a>)</li>
+<li>2 x 1k ohm resistor</li>
+<li>2 x 120 ohm resistor</li>
+<li>6 x Breadboard Jumper Cable Wires Male (<a href="http://dx.com/s/Jumper+wire+male">http://dx.com/s/Jumper+wire+male</a>)</li>
+<li>1 x Breadboard (<a href="http://dx.com/s/breadboard">http://dx.com/s/breadboard</a>)</li>
+</ul><h1>
+<a name="notes" class="anchor" href="#notes"><span class="octicon octicon-link"></span></a>Notes</h1>
+
+<ul>
+<li>Stellaris Launchpad GPIOs are 5V tolerant</li>
+<li>Stellaris Launchpad to avoid possible short-circuit remove R9 and R10</li>
+</ul><p>CAN BUS Schematic</p>
+
+<p><img src="https://raw.github.com/murix/canbus-stellaris/master/canbus-schematic.png" alt="canbus schematic"></p>
+
+<p>Reference hardware setup</p>
+
+<p><img src="https://raw.github.com/murix/canbus-stellaris/master/canbus-stellaris-mcp2551.jpg" alt="hardware setup canbus"></p>
+
+<p>Excepted console output ( COM9 is CAN TX / COM4 is CAN RX )</p>
+
+<p><img src="https://raw.github.com/murix/canbus-stellaris/master/canbus-stellaris-console.JPG" alt="console output"></p>
       </section>
     </div>
 
