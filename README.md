@@ -6,6 +6,14 @@ Working example of CAN BUS for Stellaris Launchpad (EK-LM4F120XL)
 * Setup hardware
 * Import, Build and Debug Code Composer projects 
 
+Project Page
+============
+http://murix.github.io/canbus-stellaris/
+
+Developer Page
+==============
+http://dronespersonalizados.blogspot.com.br/
+
 
 Required software tools
 =======================
