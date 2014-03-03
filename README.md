@@ -21,7 +21,7 @@ Required hardware
 * 2 x Microchip MCP2551 (http://www.microchip.com/mcp2551)
 * 2 x 1k ohm resistor
 * 2 x 120 ohm resistor
-* 6 x Breadboard Jumper Cable Wires Male (http://dx.com/s/Jumper+wire+male)
+* 10 x Breadboard Jumper Cable Wires Male (http://dx.com/s/Jumper+wire+male)
 * 1 x Breadboard (http://dx.com/s/breadboard)
 
 Notes
