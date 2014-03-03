@@ -24,9 +24,23 @@ Required hardware
 * 6 x Breadboard Jumper Cable Wires Male (http://dx.com/s/Jumper+wire+male)
 * 1 x Breadboard (http://dx.com/s/breadboard)
 
+
+
 Screenshots
 ===========
 
+Reference hardware setup
+
 ![hardware setup canbus](canbus-stellaris-mcp2551.jpg)
+
+Excepted console output ( COM9 is CAN TX / COM4 is CAN RX )
+
+![console output](canbus-stellaris-console.JPG)
+
+
+
+
+
+
 
 
