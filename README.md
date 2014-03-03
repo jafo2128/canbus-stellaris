@@ -24,7 +24,11 @@ Required hardware
 * 6 x Breadboard Jumper Cable Wires Male (http://dx.com/s/Jumper+wire+male)
 * 1 x Breadboard (http://dx.com/s/breadboard)
 
-
+Notes
+=====
+* Stellaris Launchpad GPIO is 5V tolerant
+* Stellaris Launchpad avoid short-circuit: remove R9 and R10
+* Stellaris Launchpad redudant power: remove U4, add 1N4148 for VBUS, DEBUG, DEVICE 
 
 Screenshots
 ===========
